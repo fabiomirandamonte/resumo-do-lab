@@ -46,6 +46,21 @@ Elasticidade vs Escalabilidade:
 
 **Modelo de Preços:** O modelo de nuvem oferece preços ajustados para cada tipo de serviço e recurso, como instâncias de computação, armazenamento e largura de banda. É possível também definir orçamentos e limites de gastos para evitar surpresas na fatura.
 
+### Falando um pouco sobre os Benefícios da Nuvem Azure
+
+1. Alta Disponibilidade (SLA) - Refere-se à capacidade dos serviços e aplicativos de permanecerem operacionais e acessíveis, mesmo em caso de falhas ou problemas. Existem várias disponibilidades (99%... 99,5%... 99,9%), isso é estipulado no contrato. Podendo haver em algum momento que o serviço fique fora do ar. Caso passe do tempo esperado off, o cliente recebe em crédito (vaucher) em forma de ressarcimento.
+2. Resumindo, se concentra em garantir a dispobinibilidade máxima independentemente de interrupções ou eventos que possam ocorrer.
+
+### Confiabilidade
+
+1. A confiabilidade na plataforma é baseada em arquiteturas resilientes e uma abordagem de redundância e recuperação, garantindo que os serviços estejam sempre disponíveis para atender às necessidades do negócio.
+
+### Segurança
+
+1. A nuvem oferece ferramentas de segurança que atendem às necessidades dos clientes, mas é importante lembrar que a implementação de muitas delas devem ser realizadas pelo cliente.
+2. A aplicação de patches e a manutenção sejam tratadas automaticamente, as implantações de plataforma como serviço ou software como serviço podem ser as melhores estratégias de nuvem para você.
+3. Responsabilidade do cliente é aplicar as funcionalidades oferecidas, não cabe a Microsoft implementar no sistema da empresa.
+
 **===========================================================================================**
 
 # GitHub e Seus Fundamentos
