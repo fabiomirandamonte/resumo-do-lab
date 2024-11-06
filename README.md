@@ -188,3 +188,19 @@ Durante o estudo inicial do Microsoft Azure Essentials AZ-900, aprofundei meu en
 Paralelamente, pude rever alguns conceitos e me aprofundar um pouco mais nas funcionalidades do GitHub, consolidando práticas de versionamento de código, colaboração por meio de pull requests, gerenciamento de issues e automação de fluxos de trabalho com GitHub Actions. Essa experiência reforçou meu entendimento sobre as melhores práticas de controle de versão e colaboração em projetos de software, fundamentais para ambientes ágeis e colaborativos.
 
 Esses estudos complementam minhas habilidades como desenvolvedor, permitindo uma aplicação mais eficiente de tecnologias modernas em projetos futuros.
+
+**===========================================================================================**
+## Criação de Recursos (Data da ultima atualização: 05/11/2024)
+No Azure, os recursos representam qualquer item utilizável na nuvem, como VMs, bancos de dados, redes, e funções de computação. Eles são organizados em grupos de recursos para facilitar a administração e o gerenciamento do ciclo de vida, como criação, atualização e exclusão. Esses grupos de recursos permitem que tudo o que compõe uma aplicação ou projeto seja mantido de forma centralizada e organizada, simplificando a gestão de permissões e políticas de segurança.
+
+Criação de Rede Virtual (VNet)
+A VNet é o recurso de rede básica no Azure e permite a comunicação segura entre recursos, como máquinas virtuais e bancos de dados. Uma VNet funciona como uma rede privada dentro do Azure e pode ser configurada para se comunicar com outras VNets, redes locais, ou até mesmo para oferecer acesso seguro à internet.
+
+Na criação de uma VNet, você precisa definir:
+
+1. Espaço de endereço IP: Faixa de endereços IP que os recursos dentro da VNet poderão utilizar.
+2. Sub-redes: Partições da VNet onde os recursos são alocados. Sub-redes facilitam a organização e aplicam políticas de segurança.
+3. Grupos de Segurança de Rede (NSG): Conjuntos de regras para controlar o tráfego de entrada e saída dos recursos.
+4. Peering de VNet: Permite que diferentes VNets se conectem de forma segura e direta.
+
+Esses conceitos formam a base do gerenciamento de redes e recursos no Azure, garantindo tanto a organização quanto a segurança na infraestrutura da nuvem.
